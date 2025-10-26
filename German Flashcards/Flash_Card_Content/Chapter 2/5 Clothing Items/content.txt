@@ -1,0 +1,16 @@
+die Hose (Hosen)| pants
+das Kleid (Kleider)| dress
+die Kleidung| clothes
+der Rock (Röcke)| skirt
+der Schuh (Schuhe)| shoe
+die Tasche (Taschen)| bag, purse
+das Tuch (Tücher)| scarf, cloth
+der Hut (Hüte)| hat
+die Jacke (Jacken)| jacket
+der Blazer (Blazer)| blazer
+das Kostüm (Kostüme)| suit / costume
+die Bluse (Blusen) | blouse
+das Tuch (Tücher)| scarf / cloth
+der Gürtel | belt
+die Sandale (Sandalen) | sandal
+einen Rucksack | A Backpack

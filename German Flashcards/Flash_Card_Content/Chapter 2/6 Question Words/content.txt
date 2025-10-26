@@ -1,0 +1,6 @@
+Wer| Who
+Was| What
+Wann| When
+Wo| Where
+Warum| Why
+Wie| How
