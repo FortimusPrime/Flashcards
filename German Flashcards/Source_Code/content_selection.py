@@ -22,7 +22,7 @@ def display_content(stdscr, selection, content, msgStr):
     while i < len(content): 
         # Iteratively display contents. 
         if i == selection:
-            text = "->" + content[i]
+            text = "->" + content[i] # Print with arrow if content is selected. 
         else:
             text = "  " + content[i] # So skewing doesn't happen, empty spaces where arrow would be on those that are not the selected value. 
         stdscr.addstr(height//2 + i, width//2 - len(text)//2, text)
@@ -36,6 +36,7 @@ def display_content_selection_screen(stdscr, content, msgStr):
     while (True): # Infinite loop for interactive display. 
         display_content(stdscr, selection, content, msgStr) # This displays the arrow on the selected item. Displays before adjusting.
         key = stdscr.getch()
-        if key == curses.KEY_RIGHT: # This breaks the loop. NOTE TO SELF, I must find a way to make the enter button work... 
+        if key == curses.KEY_ENTER or key == 10 or key == 13: # Enter key breaks the loop setting in the selection chosen. 
+        # if key == curses.KEY_RIGHT:
             return selection 
-        selection = get_content_selection(key, selection, content)
+        selection = get_content_selection(key, selection, content) # This adjusts the values of the selection depending on the key pressed. 
